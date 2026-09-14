@@ -1,4 +1,4 @@
-import * as THREE from './three.module.min.js';
+import * as THREE from './assets/vendor/three/three.module.min.js';
 
 export function mountScene(initialMode = 0) {
   const host = document.querySelector('#scene');
